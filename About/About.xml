@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>SMG Militor</name>
+    <name>Militor Slugger</name>
     <author>onekun</author>
-    <packageId>onekun.smgmilitor</packageId>
+    <packageId>onekun.militorslugger</packageId>
+    
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
 
     <description>
-    Adds a militor SMG varient. PLACEHOLDER
+    Adds a militor slugger varient. PLACEHOLDER
     </description>
-
-    <loadAfter>
-        <li>pal5k.personamechs</li>
-    </loadAfter>
+    
 </ModMetaData>
