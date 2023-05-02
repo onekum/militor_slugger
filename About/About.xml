@@ -22,5 +22,9 @@ Key Features:
 - Equips Militor Mechanoids with mini-slugger or mini-shotgun at a 50/50 rate
 - Boosts combat variety
 - Allows players to gestate Militor Mechanoids with mini-sluggers</description>
+
+  <loadAfter>
+    <li>ludeon.rimworld.biotech</li> <!-- Although it is possible to use a numeric id, it's less comprehensible to do so -->
+  </loadAfter>
     
 </ModMetaData>
