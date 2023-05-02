@@ -65,11 +65,19 @@
     </value>
   </Operation>
 
-  <!-- relabel militor to militor mini-shotgun -->
+  <!-- relabel militor to militor mini-shotguner -->
     <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Militor"]/label</xpath>
     <value>
       <label>militor mini-shotgunner</label>
+    </value>
+  </Operation>
+
+  <!-- relabel to militor mini-shotguner on gestator -->
+    <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Militor"]/label</xpath>
+    <value>
+      <label>gestate militor mini-shotgunner</label>
     </value>
   </Operation>
 
