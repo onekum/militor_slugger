@@ -115,7 +115,7 @@
       </weaponTags>
     </PawnKindDef>
 
-    <!-- SMG Militor -->
+    <!-- Militor Slugger -->
     <ThingDef ParentName="LightMechanoid">
       <defName>Mech_Militor_Slugger</defName>
       <label>militor</label>
@@ -146,7 +146,7 @@
     <PawnKindDef ParentName="LightMechanoidKind">
       <defName>Mech_Militor_Slugger</defName>
       <label>militor</label>
-      <race>Mech_Militor</race>
+      <race>Mech_Militor_Slugger</race>
       <combatPower>45</combatPower>
       <lifeStages>
         <li>
