@@ -46,6 +46,18 @@
   </RecipeDef>
 
   <RecipeDef ParentName="LightMechanoidRecipe">
+    <defName>Militor_Slugger</defName>
+    <label>gestate militor slugger</label>
+    <description>Gestate a militor slugger mechanoid.</description>
+    <products>
+      <Mech_Militor_Slugger>1</Mech_Militor_Slugger>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Militor_Slugger</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightMechanoidRecipe">
     <defName>Lifter</defName>
     <label>gestate lifter</label>
     <description>Gestate a lifter mechanoid.</description>
