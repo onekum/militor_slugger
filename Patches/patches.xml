@@ -2,7 +2,7 @@
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/ThingDef[defName="MechGestator"]/recipes/li[1]</xpath>
     <value>
-      <li>Militor Slugger</li>
+      <li>Militor_Slugger</li>
     </value>
   </Operation>
   
