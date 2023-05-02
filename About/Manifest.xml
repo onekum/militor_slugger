@@ -1,6 +1,6 @@
 <Manifest>
   <identifier>onekun.militorslugger</identifier>
   <version>2023.5.1</version>
-  <manifestUri>https://raw.githubusercontent.com/onekum/smg_militor /master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/onekum/smg_militor/releases/latest</downloadUri>
+  <manifestUri>https://raw.githubusercontent.com/onekum/militor_slugger /master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/onekum/militor_slugger/releases/latest</downloadUri>
 </Manifest>
