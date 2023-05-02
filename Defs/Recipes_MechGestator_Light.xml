@@ -1,6 +1,6 @@
 <Defs>
   <RecipeDef ParentName="LightMechanoidRecipe">
-    <defName>Militor Slugger</defName>
+    <defName>Mech_Militor_Slugger</defName>
     <label>gestate militor slugger</label>
     <description>Gestate a militor slugger mechanoid.</description>
     <products>
