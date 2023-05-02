@@ -2,7 +2,7 @@
     <!-- Militor Slugger -->
     <ThingDef ParentName="LightMechanoid">
         <defName>Mech_Militor_Slugger</defName>
-        <label>militor slugger</label>
+        <label>militor</label>
         <description>A small combat mechanoid armed with a versatile mini-slugger. Standing approximately four feet tall, militor sluggers are a variant of the standard militor mechanoids equipped with low-powered mini-shotguns. While the mini-slugger's power may be lower than that of the mini-shotgun, it compensates with an extended range and marginally improved accuracy. These traits make the militor sluggers better suited for mid-range engagements and suppressive fire.\n\nThough not as formidable as more advanced combat mechs, militor sluggers are cost-effective to produce and maintain, making them a popular choice for rear guard support or swarm assaults. In times of conflict, mech armies are notorious for deploying both militor mechanoids and militor sluggers into the shattered remains of urban battlegrounds, tasked with mercilessly hunting down any surviving defenders.\n\nDue to their relentless and indiscriminate nature, coupled with their harrowing presence on the battlefield, militor sluggers have earned a chilling reputation among their human adversaries. These mechanoids are often viewed as cruel enforcers of the oppressive mech agenda, instilling fear in the hearts of those unfortunate enough to witness their cold, calculated efficiency firsthand.</description>
         <statBases>
         <MoveSpeed>3.8</MoveSpeed>
@@ -29,7 +29,7 @@
 
     <PawnKindDef ParentName="LightMechanoidKind">
         <defName>Mech_Militor_Slugger</defName>
-        <label>militor slugger</label>
+        <label>militor</label>
         <race>Mech_Militor_Slugger</race>
         <combatPower>45</combatPower>
         <lifeStages>
