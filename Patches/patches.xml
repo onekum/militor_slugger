@@ -16,28 +16,60 @@
     </value>
   </Operation>
 
-    <!-- add sluggers to mech regiment/raids -->
-    <!-- all types -->
-    <Operation Class="PatchOperationAdd">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[1]/options</xpath>
-    <value>
-      <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">20</Mech_Militor_Slugger>
-    </value>
-  </Operation>
-
-  <!-- breaching -->
+  <!-- add sluggers to mech regiment/raids -->
+  <!-- all types -->
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[5]/options</xpath>
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[1]/options</xpath>
     <value>
       <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">10</Mech_Militor_Slugger>
     </value>
   </Operation>
 
+  <!-- even out odds -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[1]/options/Mech_Militor</xpath>
+    <value>
+      <Mech_Militor MayRequire="Ludeon.RimWorld.Biotech">10</Mech_Militor>
+    </value>
+  </Operation>
+
   <!-- militor only -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[5]/options</xpath>
+    <value>
+      <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">5</Mech_Militor_Slugger>
+    </value>
+  </Operation>
+
+  <!-- even out odds -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[5]/options/Mech_Militor</xpath>
+    <value>
+      <Mech_Militor MayRequire="Ludeon.RimWorld.Biotech">5</Mech_Militor>
+    </value>
+  </Operation>
+
+  <!-- breaching -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[6]/options</xpath>
     <value>
-      <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">20</Mech_Militor_Slugger>
+      <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">10</Mech_Militor_Slugger>
+    </value>
+  </Operation>
+
+  <!-- even out odds -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[6]/options/Mech_Militor</xpath>
+    <value>
+      <Mech_Militor MayRequire="Ludeon.RimWorld.Biotech">10</Mech_Militor>
+    </value>
+  </Operation>
+
+  <!-- relabel militor to militor mini-shotgun -->
+    <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Militor"]/label</xpath>
+    <value>
+      <label>militor mini-shotgunner</label>
     </value>
   </Operation>
 
