@@ -1,4 +1,5 @@
 <Patch>
+  <!-- add gestator recipes -->
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/ThingDef[defName="MechGestator"]/recipes/li[2]</xpath>
     <value>
@@ -6,6 +7,7 @@
     </value>
   </Operation>
   
+  <!-- add gestator resurrection -->
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/RecipeDef[defName="ResurrectLightMech"]/fixedIngredientFilter/thingDefs/li[5]</xpath>
     <value>
@@ -13,6 +15,7 @@
     </value>
   </Operation>
 
+    <!-- add sluggers to mech regiment -->
     <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[1]/options</xpath>
     <value>
