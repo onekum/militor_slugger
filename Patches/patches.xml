@@ -1,13 +1,13 @@
 <Patch>
   <Operation Class="PatchOperationInsert">
-    <xpath>Defs/ThingDef[defName="MechGestator"]/recipes/li[1]</xpath>
+    <xpath>Defs/ThingDef[defName="MechGestator"]/recipes/li[2]</xpath>
     <value>
       <li>Militor_Slugger</li>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationInsert">
-    <xpath>Defs/RecipeDef[defName="ResurrectLightMech"]/fixedIngredientFilter/thingDefs/li[4]</xpath>
+    <xpath>Defs/RecipeDef[defName="ResurrectLightMech"]/fixedIngredientFilter/thingDefs/li[5]</xpath>
     <value>
       <li>Corpse_Mech_Militor_Slugger</li>
     </value>
