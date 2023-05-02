@@ -1,8 +1,8 @@
-<Defs>
+<Patch>
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/ThingDefs_Buildings/Buildings_Production[defName="MechGestator"]/recipes/li[1]</xpath>
     <value>
       <li>Militor Slugger</li>
     </value>
   </Operation>
-</Defs>
+</Patch>
