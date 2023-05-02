@@ -12,4 +12,25 @@
       <li>Corpse_Mech_Militor_Slugger</li>
     </value>
   </Operation>
+
+    <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[1]/options</xpath>
+    <value>
+      <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">20</Mech_Militor_Slugger>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[5]/options</xpath>
+    <value>
+      <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">10</Mech_Militor_Slugger>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[6]/options</xpath>
+    <value>
+      <Mech_Militor_Slugger MayRequire="Ludeon.RimWorld.Biotech">20</Mech_Militor_Slugger>
+    </value>
+  </Operation>
 </Patch>
