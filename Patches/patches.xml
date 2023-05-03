@@ -81,4 +81,17 @@
     </value>
   </Operation>
 
+  <!-- mod comp. patch for "Mechanitor Balance Tweaks" -->
+  <Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Mechanitor Balance Tweaks</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Militor_Slugger"]</xpath>
+		<value>
+			<researchPrerequisites><li>BasicMechtech</li><li>Gunsmithing</li></researchPrerequisites>
+		</value>
+  </match>
+</Operation>
+
 </Patch>

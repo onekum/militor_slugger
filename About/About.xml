@@ -18,13 +18,18 @@ Additionally, players can gestate these Militor Mechanoids themselves to take ad
 
 Key Features:
 
-- Introduces the unused mini-slugger weapon from the base game
 - Equips Militor Mechanoids with mini-slugger or mini-shotgun at a 50/50 rate
 - Boosts combat variety
-- Allows players to gestate Militor Mechanoids with mini-sluggers</description>
+- Allows players to gestate Militor Mechanoids with mini-sluggers
+- Should work with other mechanoid mods
+
+Contains explicit mod compatibility patches for:
+
+- Mechanitor Balance Tweaks</description>
 
   <loadAfter>
     <li>ludeon.rimworld.biotech</li> <!-- Although it is possible to use a numeric id, it's less comprehensible to do so -->
+    <li>pal5k.mechanitorbalancetweaks</li>
   </loadAfter>
     
 </ModMetaData>
