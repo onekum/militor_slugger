@@ -1,35 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Militor Mini-Slugger Varient</name>
-    <author>onekun</author>
-    <packageId>onekun.militorslugger</packageId>
-    
-    <supportedVersions>
-        <li>1.4</li>
-    </supportedVersions>
+  <name>Militor Mini-Slugger Varient</name>
+  <author>onekun</author>
+  <packageId>onekun.militorslugger</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
 
-    <description>This mod adds a new variant for the Militor Mechanoid, equipping it with the mini-slugger. The mini-slugger is a firearm that shoots a single small slug and offers moderate accuracy. Though not as powerful as the mini-shotgun, it compensates with a longer range and improved accuracy, allowing the Militor to be viable in mid-range encounters.
-
-With this mod, every Militor Mechanoid has a 50/50 chance of being equipped with either a mini-shotgun or a mini-slugger. This change enhances combat variety, making each encounter with a Militor Mechanoid more unpredictable and engaging.
-
-Do keep in mind that a single Militor Mechanoid with a mini-slugger may not be a significant threat in most situations. However, when they are encountered in groups or with other mechanoids, their diversity in weapons may demand more versatile defense strategies.
-
-Additionally, players can gestate these Militor Mechanoids themselves to take advantage of their new weapon variety and add them to their ranks, thereby benefiting their own combat capabilities.
-
-Key Features:
-
-- Equips Militor Mechanoids with mini-slugger or mini-shotgun at a 50/50 rate
-- Boosts combat variety
-- Allows players to gestate Militor Mechanoids with mini-sluggers
-- Should work with other mechanoid mods
-
-Contains explicit mod compatibility patches for:
-
-- Mechanitor Balance Tweaks</description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>RimWorld - Biotech</displayName>
+      <steamWorkshopUrl>steam://https://store.steampowered.com/app/1826140/RimWorld__Biotech//</steamWorkshopUrl>
+    </li>
+  </modDependencies>
 
   <loadAfter>
-    <li>ludeon.rimworld.biotech</li> <!-- Although it is possible to use a numeric id, it's less comprehensible to do so -->
+    <li>ludeon.rimworld.biotech</li>
     <li>pal5k.mechanitorbalancetweaks</li>
   </loadAfter>
-    
+
+  <description>This mod adds a new variant for the Militor Mechanoid, equipping it with the mini-slugger. The mini-slugger is a firearm that shoots a single small slug and offers moderate accuracy. Though not as powerful as the mini-shotgun, it compensates with a longer range and improved accuracy, allowing the Militor to be viable in mid-range encounters.
+
+  With this mod, every Militor Mechanoid has a 50/50 chance of being equipped with either a mini-shotgun or a mini-slugger. This change enhances combat variety, making each encounter with a Militor Mechanoid more unpredictable and engaging.
+
+  Do keep in mind that a single Militor Mechanoid with a mini-slugger may not be a significant threat in most situations. However, when they are encountered in groups or with other mechanoids, their diversity in weapons may demand more versatile defense strategies.
+
+  Additionally, players can gestate these Militor Mechanoids themselves to take advantage of their new weapon variety and add them to their ranks, thereby benefiting their own combat capabilities.
+
+  Key Features:
+
+  - Equips Militor Mechanoids with mini-slugger or mini-shotgun at a 50/50 rate
+  - Boosts combat variety
+  - Allows players to gestate Militor Mechanoids with mini-sluggers
+  - Should work with other mechanoid mods
+
+  Contains explicit mod compatibility patches for:
+
+  - Mechanitor Balance Tweaks</description>
+
 </ModMetaData>
